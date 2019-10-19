@@ -1,5 +1,5 @@
 object saqa extends App {
 	val foundersNames = Vector("Atreya Ray","Aayush Kucheria","Sergey Zakuraev","Quan Nyugen")
-	for (i <- foundersNames.length)
-		println(foundersNames(i))
+	for (i <- foundersNames)
+		println(i)
 	}
